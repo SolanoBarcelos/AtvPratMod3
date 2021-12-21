@@ -1,0 +1,284 @@
+@charset "UTF-8";
+/* Formatação do menu */
+
+nav#menu
+{
+    display: inline;
+}
+
+nav#menu a 
+{
+    color: #000000;
+    text-decoration: none;
+    transition-duration: 1s;
+}
+
+nav#menu a:hover
+{
+    color: white;
+}
+
+nav#menu ul 
+{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    top: -10px;
+    left: 544px;
+    
+}
+
+nav#menu li 
+{
+    display: inline;
+    background-color: #dddddd;
+    padding: 10px;
+    margin: 2px;
+    transition-duration: 1s;
+}    
+
+nav#menu li:hover 
+{
+    background-color: #606060;
+}
+
+
+/* Formatação do main */
+
+main
+{
+     display: block;
+     width: 500px;
+     float: left;
+     padding-right: 15px;
+     margin-top: 100px;
+     margin-left: 100px;
+
+}
+
+main h2 
+{
+    font-family: 'arial', sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+/* Formatação do Form */
+
+main form
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+Main form label
+{
+    display: flex;
+    flex-direction: column;
+}
+
+main form label span
+{
+    background-color: #606060;
+    font-size: 12pt;
+    color: #ffffff;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    background-color: #606060;
+    color: #ffffff;
+    padding-left: 10px;
+}
+
+main form input
+{
+    background-color: #cecece;
+    width: 400px;
+    height: 50px;
+    padding: 2px;
+    border-radius: 8px;
+    border: 1px;
+    font-size: 15px;
+    box-shadow: 2px 2px 2px rgba(71, 12, 12, 0.5);
+}
+
+main form input#btnCadastrar
+{
+    cursor: pointer;
+    width: 50%;
+    margin-top: 50px;
+    border-radius: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #000000;
+    text-decoration: none;
+    transition-duration: 1s;
+
+}
+
+main form input#btnCadastrar:hover
+{
+    color: white;
+}
+
+/* Formatação aside */
+
+aside#direita 
+{
+    display: block;
+    width: 500px;
+    float: right;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    margin-right: 100px;
+    box-shadow: 2px 2px 2px rgba(71, 12, 12, 0.5);
+    padding: 10px 50px 10px 50px;
+    background-color:#cecece;
+}
+
+aside#direita h1 
+{
+    font-family: 'arial', sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    text-align: center;
+    
+   
+}
+
+aside#direita p 
+{
+    background-color: #606060;
+    font-size: 12pt;
+    color: #ffffff;
+    padding: 5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Formatação do Footer */
+
+footer
+{
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+/* Formatação do Index */
+
+main p#PHome
+{
+    font-size: 2pc;
+    color: black;
+    padding: 5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 60px;
+}
+
+
+aside#imgIndex
+{
+    display: block;
+    width: 500px;
+    float: right;
+    margin-top: 130px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    padding: 10px 50px 10px 50px;   
+}  
+
+
+/* Formatação do Section destinos */
+
+main section.destinos 
+{
+    
+    overflow: auto;
+    display: flex;
+    position: absolute;
+    margin: 40px 
+}
+
+main article.lugares
+{
+    margin: 40px 80px 40px 0px;
+
+}
+
+main article.lugares p
+{
+    background-color: #606060;
+    font-size: 12pt;
+    color: #ffffff;
+    padding: 5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Formatação Titulo Contato  */
+
+main h2#tituloContato
+{
+    background-color: #606060;
+    font-size: 20pt;
+    width: 593px;
+    color: #ffffff;
+    padding: 5px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 40px;
+}
+
+/* Formatação Pagina Contato  */
+
+main section#contatos
+{
+display: block;
+width: 500px;
+margin-top: 50px;
+margin-bottom: 50px;
+margin-right: 100px;
+box-shadow: 2px 2px 2px rgba(71, 12, 12, 0.5);
+padding: 10px 50px 10px 50px;
+background-color:#cecece;
+margin-left: 40px;
+}
+
+main section#contatos h3
+{
+    background-color: #606060;
+    font-size: 12pt;
+    color: #ffffff;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main section#contatos p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px 20px 5px 20px;
+}
+
+aside#imgContato
+{
+    display: block;
+    width: 500px;
+    float: right;
+    margin-top: 130px;
+    margin-bottom: 50px;
+    margin-right: 50px;
+    padding: 10px 50px 10px 50px;
+}  

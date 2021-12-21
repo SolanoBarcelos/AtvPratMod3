@@ -1,0 +1,47 @@
+﻿@model IEnumerable<AtvPratMod3SolanoBarcelos.Models.destino>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Destinos</h1>
+
+<p>
+    <a asp-action="Create"><button type="button" class="btn btn-success">Cadastrar</button></a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.cidade)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.estado)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.cidade)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.estado)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.id"><button type="button" class="btn btn-warning">Editar</button></a> |
+                <a asp-action="Details" asp-route-id="@item.id"><button type="button" class="btn btn-secondary">Visualizar</button></a> |
+                <a asp-action="Delete" asp-route-id="@item.id"><button type="button" class="btn btn-danger">Deletar</button></a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

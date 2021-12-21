@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "174b9423-0250-4fa5-8606-615d77eddc5c": {
+      "ProjectGuid": "174b9423-0250-4fa5-8606-615d77eddc5c",
+      "DisplayName": "AtvPratMod3SolanoBarcelos",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Arquivos Diversos",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}
