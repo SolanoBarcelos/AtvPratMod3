@@ -2,7 +2,7 @@
 
 ## Projeto RecodePro
 
-#### Atividade pratica individual proposta no final do módulo 3 do curso de Desenvolvimento Web Full Stack Jr. do Projeto Recode Pro.
+#### Atividade prática individual proposta no final do módulo 3 do curso de Desenvolvimento Web Full Stack Jr. do Projeto Recode Pro.
 #### Desenvolver site de uma agência de viagens com paginas Home, Destinos, Promoções e Contato.
 
 #### Requisições para entrega:
