@@ -8,5 +8,5 @@
 #### Requisições para entrega:
 
 - Front End em HTML e CSS raiz.
-- Back End com Crud em C#.
+- Back End com Crud em C# com ASP.NETCore.MVC; Entity Framework.
 - Persistência de dados em SQL.
